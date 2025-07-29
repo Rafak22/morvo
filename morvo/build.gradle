@@ -1,0 +1,21 @@
+plugins {
+    id 'application'
+}
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
+}
+
+application {
+    mainClass = 'com.yourname.morvo.Main'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // Add your dependencies here, e.g.
+    implementation 'org.slf4j:slf4j-api:2.0.7'
+} 
